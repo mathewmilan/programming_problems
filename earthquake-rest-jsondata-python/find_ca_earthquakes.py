@@ -41,5 +41,5 @@ def sort_print_earthquakes(quake_list):
 
 
 quake_features = get_data_from_url(URL)
-#ca_quakes = get_earthquakes_in_cali(quake_features)
-#sort_print_earthquakes (ca_quakes)
+ca_quakes = get_earthquakes_in_cali(quake_features)
+sort_print_earthquakes (ca_quakes)
